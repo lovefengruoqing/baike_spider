@@ -19,7 +19,7 @@ class SpiderMain(object):
                 self.urls.add_new_urls(new_urls)
                 self.outputer.collect_data(new_data)
                 #修改这个值，能控制爬取网页的数量
-                if count == 10:
+                if count == 200:
                     break
                 count += 1
             except:
