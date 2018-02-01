@@ -1,0 +1,67 @@
+body{
+    font-size: 12px;
+    font-family: "微软雅黑", "宋体";
+}
+
+body, header, input, ul, li, tr, span, td{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/* 清除浮动 */
+.clearfix::after{
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    font-size: 0;
+    visibility: hidden;
+    clear: both;
+}
+.clearfix{
+    *zoom: 1;
+}
+
+/* 设定盒模型方式 */
+*{
+    box-sizing: border-box;
+}
+
+div#wrap {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 12px;
+    position: relative; 
+}
+#wrap h2 {
+    font-size: 1.8rem;
+    line-height: 2;
+    border-bottom: 2px dotted #a49f9f;
+    margin-bottom: 1rem; 
+}
+.block {
+    margin-bottom: 20px;
+    padding: 5px;
+    background-color: #efefef;
+}
+.block p{
+    text-align: left;
+}
+.block a{
+    font-style: italic;
+}
+a:link {color: blue; text-decoration:none;}
+a:active:{color: red; }
+a:visited {color:purple;text-decoration:none;} 
+a:hover {color: red; text-decoration:underline;} 
+
