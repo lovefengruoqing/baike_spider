@@ -4,4 +4,4 @@
 
 教学视频中所采用python版本为python2，本人所采用的为python版本为`Python 3.6.1`，并且在原有基础上，给导出网页的样式做了调整，添加了css，使得输出更为美观。
 
-爬虫代码仅供参考，[index.html](./index.html '点击查看')为爬完百度百科python相关词条两百条后生成的页面，进入[http://www.wuzhiqin.tk/baike_spider/](http://www.wuzhiqin.tk/baike_spider/ '点击查看')网页查看最终效果。
+爬虫代码仅供参考，[index.html](./index.html '点击查看')为爬完百度百科python相关词条两百条后生成的页面，进入[https://lovefengruoqing.github.io/baike_spider/](https://lovefengruoqing.github.io/baike_spider/ '点击查看')网页查看最终效果。
